@@ -6,9 +6,26 @@
     <RootNamespace>Zoka.IMetadataAwareCore</RootNamespace>
   </PropertyGroup>
 
+	<PropertyGroup>
+		<PackageId>Zoka.IMetadataAwareCore</PackageId>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/zoka-cz/IMetadataAware.Core</RepositoryUrl>
+		<Authors>Zoka</Authors>
+		<Description>Provides the IMetadataAware attribute into your .NETCore project as known from .NetFramework.</Description>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageProjectUrl>https://github.com/zoka-cz/IMetadataAware.Core</PackageProjectUrl>
+	</PropertyGroup>
+
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <DocumentationFile>bin\XMLDocs\Zoka.IMetadataAwareCore.xml</DocumentationFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
