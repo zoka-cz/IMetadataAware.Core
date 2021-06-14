@@ -1,0 +1,1 @@
+# IMetadataAware.Core
