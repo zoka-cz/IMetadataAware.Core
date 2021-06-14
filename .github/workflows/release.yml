@@ -26,3 +26,4 @@ jobs:
           PROJECT_FILE_PATH: _src/IMetadataAware.Core/IMetadataAware.Core.csproj
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
           VERSION_STATIC: $VERSION
+          TAG_COMMIT: false
