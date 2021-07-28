@@ -25,7 +25,7 @@ jobs:
     - name: Build
       run: dotnet build "_src\IMetadataAware.Core.sln" --configuration Release /p:Version=${VERSION}
     - name: Publish Zoka.IMetadataAware.Core nuget to nuget.org
-      uses: brandedoutcast/publish-nuget@v2.5.2
+      uses: zoka/publish-nuget@v2.5.2
       with:
           PROJECT_FILE_PATH: _src/IMetadataAware.Core/IMetadataAware.Core.csproj
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
