@@ -13,7 +13,7 @@
 	  <!-- Optional: Build symbol package (.snupkg) to distribute the PDB containing Source Link -->
 	  <IncludeSymbols>true</IncludeSymbols>
 	  <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-	  <IncludeSources>true</IncludeSources>
+	  <IncludeSource>true</IncludeSource>
   </PropertyGroup>
 
 	<PropertyGroup>
